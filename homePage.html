@@ -5,45 +5,68 @@
 </head>
 <body>
     <header>
-        <div class="header-pic">
-            <img src="header.jpg" alt="picture of a dog">
+        <div>
+            <div class="header-pic">
+                <img src="header.jpg" alt="picture of a dog">
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="homePage.html">Home</a></li>
+                    <li><a href="highlights.html">Highlights</a></li>
+                    <li><a href="faveProducts.html">My Favorite Products</a></li>
+                    <li><a href="joinClub.html">Join My Club!</a></li>
+                    <li><a href="ripBud.html">Rest in Peace, Bud</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul class="main-nav">
-                <li><a href="homePage.html">Home</a></li>
-                <li><a href="highlights.html">Highlights</a></li>
-                <li><a href="faveProducts.html">My Favorite Products</a></li>
-                <li><a href="joinClub.html">Join My Club!</a></li>
-                <li><a href="ripBud.html">Rest in Peace Bud</a></li>
-            </ul>
-        </nav>
     </header>
-    <div>
-    <h1>Hi, my name is Gigi </h1>
-    <div class="dog">
-        <img src="Profile.jpg" alt="Gigi smiling">
-    </div>
-    <p>Current Mood: Happy</p>
-    </div>
 
-    <div>
-        <h2>Gigi's Bio:</h2>
-        <p>Hi, my name is Gigi. I'm a 9 year old border collie. I grew up in California and I love to be outside in my yard. and run with my best friend and brother Jason! </p>
-    </div>
-
-    <div>
-        <h2>My friends: </h2>
+    <div class="main-body">
+    <div id="intro">
+        <h1>Hi, my name is Gigi </h1>
         <div class="dog">
-            <label for="friend_bud">My Best Friend Bud</label>
+            <img src="Profile.jpg" alt="Gigi smiling">
+        </div>
+        <p>Current Mood: Happy</p>
+        <p>Favorite Activities:</p>
+        <ul>
+            <li>Running</li>
+            <li>Walking</li>
+            <li>Avoiding other dogs</li>
+            <li>Digging</li>
+            <li>Head massages</li>
+        </ul>
+    </div>
+
+    <div id="bio">
+        <h2>Gigi's Bio:</h2>
+        <p>Hi, my name is Gigi. I'm a 9 year old border collie. I was adopted when I was 3 months old, into a family of 3 and another dog named Bud.
+            Bud was about 5 at the time and was the absolute best older brother I could've asked for. I would climb, bite, and play all over him and he wouldn't mind at all.
+            My favorite activity was to cuddle and sleep right next to him.
+        </p>
+        <p>
+            When I wasn't running around bothering my older Brother, I would adventure around the big yard around the house.
+            There were so many things to climb, holes to dig, squarels to chase after, oh boy. There was so much to do, and so little time.
+        </p>
+        <p>
+            Now that I'm a little older, and a little wiser. I take my time destroying our beautiful yard. I love digging, that's one of my favorite activities, especially when my older brother Jason
+            digs with me. I also love adventuring ~ whether it be walks or runs! I especially enjoy runs.
+        </p>
+    </div>
+
+    <div id="friends">
+        <h2>My friends: </h2>
+        <div class="dog" id ="friend1">
+            <label for="friend_bud">Bud</label>
             <img src="friend_bud.jpg" alt="My best friend Bud" id="friend_bud">
         </div>
-        <div class="dog">
-            <label for="friend_tobby">My Friend Tobby</label>
+        <div class="dog" id="friend2">
+            <label for="friend_tobby">Tobby</label>
             <img src="friend_tobby.jpg" alt="My best friend Tobby" id="friend_tobby">
         </div>
 
     </div>
-
+    </div>
 
 </body>
 </html>
