@@ -80,3 +80,30 @@ fieldset {
     flex-direction:column;
     width:400px;
 }
+
+.rip-body {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 0 auto;
+    padding-top: 50px;
+}
+
+.bud-highlights {
+    display:grid;
+    grid-template-columns: 125px 125px 125px;
+    width:0 auto;
+}
+
+.bud-highlights-pics {
+    height: 175px;
+    width: 175px;
+    transition-property: width, height;
+    transition-duration: width 3s, height 3s;
+}
+
+.bud-highlights-pics:hover {
+    height:650px;
+    width:650px;
+    z-index:2;
+}
